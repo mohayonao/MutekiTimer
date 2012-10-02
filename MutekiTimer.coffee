@@ -58,7 +58,7 @@ MutekiTimer.use = =>
     @setInterval   = _setInterval
     @clearInterval = _clearInterval
 
-MutekiTimer.unuse = ->
+MutekiTimer.unuse = =>
     @setInterval   = setInterval
     @clearInterval = clearInterval
 
