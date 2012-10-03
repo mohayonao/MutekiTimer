@@ -48,7 +48,7 @@ _setInterval = (func, interval)->
     t = new MutekiTimer()
     t.setInterval func, interval
     pool[tid++] = t
-    id
+    tid
 
 _clearInterval = (id)->
     pool[id]?.clearInterval()
